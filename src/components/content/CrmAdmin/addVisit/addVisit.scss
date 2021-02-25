@@ -1,0 +1,57 @@
+.addVisit_wrapper{
+    width:100%;
+    min-width:800px;
+    font-size:14px;
+    // height: 100%;
+    // position: relative;
+    .content{
+        width: 100%;
+        .content_title{
+            padding: 20px 40px;
+            .content_title_biao{
+                margin-right: 10px;
+                width: 3px;
+                height: 15px;
+                display: inline-block;
+                vertical-align: middle;
+                background: rgb(0,121,255);
+            }
+            .content_title_txt{
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        .content_nav{
+            margin-bottom: 20px;
+            padding-left: 40px;
+            .star_txt,.star_img{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .star_img{
+                img{
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .content_text{
+            padding:15px 40px;
+            .visit_biao,.txtexe{
+                width: 100px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            .txtexe{
+                width: calc(100% - 100px);
+            }
+        }
+    }
+    .bottom{
+        padding:0 40px;
+        text-align: right;
+        position: fixed;
+        right: 0;
+        bottom: 100px;
+    }
+}

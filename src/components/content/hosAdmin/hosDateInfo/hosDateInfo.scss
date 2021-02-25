@@ -1,0 +1,102 @@
+.hosDateInfo{
+    width:100%;
+    padding:20px;
+    min-width:800px;
+    font-size:14px;
+    color: rgb(34,34,34);
+    .hosDateInfo_title{
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgb(238,238,238);
+        .title_tit{
+            margin-bottom: 15px;
+            .tit_biao{
+                width: 3px;
+                height: 15px;
+                background: rgb(0,121,255);
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .tit_txt{
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+        }
+        .titinfotitin{
+            position: relative;
+            .hosDateInfo_titleInfo{
+                width: 40%;
+                min-width: 500px;
+                display: flex;
+                flex-wrap: wrap;
+                .titleInfo_item{
+                    width: 50%;
+                    text-align: left;
+                    margin-bottom: 10px;
+                    span:nth-of-type(1){
+                        color: rgb(110,110,110);
+                    }
+                }
+            }
+            .title_right{
+                position: absolute;
+                right: 30px;
+                bottom: 10px;
+            }
+        }
+            
+        .title_right{
+            display: inline-block;
+            // width: calc(100% - 40%);
+        }
+    }
+    .contentInfo{
+        padding-top: 20px;
+        .title_tit{
+            // margin-bottom: 15px;
+            .tit_biao{
+                width: 3px;
+                height: 15px;
+                background: rgb(0,121,255);
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .tit_txt{
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+        }
+        .content_list{
+            // padding-top: 20px;
+            .content_list_item{
+                padding: 20px 0;
+                border-bottom: 1px solid rgb(238,238,238);
+                .list_item_title{
+                    color: rgb(110,110,110);
+                    margin-bottom: 10px;
+                }
+                .content_list_txt{
+                    line-height: 1.5;
+                    margin-bottom: 10px;
+                }
+                .img_list{
+                    margin-right: 2px;
+                    .img_item{
+                        display: inline-block;
+                        width: 121px;
+                        height: 121px;
+                        overflow: hidden;
+                        // background: #000;
+                        margin-right: 2px;
+                        img{
+                            width: 121px;
+                            min-height: 121px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

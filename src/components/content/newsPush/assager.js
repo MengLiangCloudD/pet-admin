@@ -1,0 +1,1 @@
+export {default as xitong} from './../../../common/imager/xitong.png';

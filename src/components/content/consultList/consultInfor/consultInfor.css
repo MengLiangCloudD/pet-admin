@@ -1,0 +1,220 @@
+.ant-modal-body{
+    padding:15px 0;
+}
+.nav_model{
+    width:100%;
+    /* height:30px; */
+    /* line-height:30px; */
+    display:-webkit-box;
+    display:flex;
+    font-size:14px;
+    /* margin:15px 0 ; */
+    border-bottom: 1px solid rgb(238,238,238);
+    padding-bottom: 10px;
+}
+.nav_model1{
+    width:100%;
+    /* height:30px; */
+    /* line-height:30px; */
+    display:-webkit-box;
+    display:flex;
+    font-size:14px;
+    display: inline-flex;
+    padding: 5px 0;
+    /* margin:15px 0 ; */
+}
+.nav_model1s{
+    width:90%;
+    /* height:30px; */
+    /* line-height:30px; */
+    display:-webkit-box;
+    display:flex;
+    font-size:14px;
+    display: inline-flex;
+    padding: 5px 0;
+}
+.cat_content{
+    width:100%;
+    /* height:30px; */
+    /* line-height:30px; */
+    display:-webkit-box;
+    display:flex;
+    font-size:14px;
+    /* margin:15px 0 ; */
+    /* padding-bottom: 10px; */
+}
+.cat_title_item{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+}
+.content_title_item{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+}
+.content_title_item1{
+    display:inline-block;
+    flex:1;
+    text-align:left;
+    margin-right: 65px;
+    margin-left: 15px;
+}
+.cat_title_item2{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+    margin-right: 30px;
+}
+.cat_title_item2s{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+}
+.cat_title_item2ss{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+    margin-left: 95px;
+}
+.cat_title_item2sss{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+    margin-left: 100px;
+}
+.cat_title_item1{
+    display:inline-block;
+    /* flex:1; */
+    text-align:left;
+    width: 215px;
+    /* margin-right: 65px; */
+}
+.content_title_item2{
+    display:inline-block;
+    flex:1;
+    text-align:center;
+    margin-right: 46px;
+}
+.group{
+    width:100%;
+    padding: 0 10px;
+}
+.ant-radio-wrapper{
+    width:100%;
+    padding: 5px;
+}
+.ant-checkbox-wrapper{
+    width:100%;
+    padding: 5px;
+    margin-left: 8px;
+}
+.model_img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.modul_content{
+    height: 350px;
+    overflow-x: hidden;
+}
+.model_text{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+.model_img1{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #000;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.model_text1{
+    display: inline-block;
+    vertical-align: middle;
+}
+.model_sku{
+    width: 100%;
+    background: #f8f8f8;
+    font-size: 12px;
+    padding:5px 10px;
+    position: relative;
+}
+.sku_list{
+    margin-left: 30px;
+    width: 80%;
+    white-space:normal;
+   
+    
+}
+.sku_item{
+    display: inline-block;
+    border: 1px solid #00b4ed;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 2px 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.sku_item1{
+    display: inline-block;
+    /* border: 1px solid #00b4ed; */
+    background: rgb(213,213,213);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 2px 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.modul_button{
+    text-align: right;
+    padding: 5px;
+}
+.operation{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.minus,.quantity,.add{
+    display: inline-block;
+    border: 1px solid rgb(220,220,220);
+    vertical-align: middle;
+    text-align: center;
+}
+.minus,.add{
+    width: 14px;
+    height: 16px;
+    line-height: 16px;
+}
+.minus{
+    border-right: 0;
+}
+.add{
+    border-left: 0;
+}
+.quantity{
+    width: 36px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.title{
+    position: relative;
+}
+.quxiao{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    /* right: ;: 0; */
+}

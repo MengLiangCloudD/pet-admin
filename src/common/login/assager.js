@@ -1,0 +1,1 @@
+export {default as dengl} from './../imager/dengl.png';

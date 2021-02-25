@@ -1,0 +1,1 @@
+export {default as icno} from './../imager/icno.png';

@@ -1,0 +1,1 @@
+export {default as qianwang} from './../../../common/imager/qianwang.png';
